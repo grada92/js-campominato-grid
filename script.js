@@ -13,9 +13,25 @@ console.log('JS OK');
 const button = document.getElementById('button-grid');
 
 button.addEventListener('click', function(){
-    console.log('mi hai cliccato')
+    console.log('mi hai cliccato');
+    // collego elemento alla griglia
+
+    const addgrid = document.getElementById('grid');
+    addgrid.innerHTML = '';
+
+    // Creo celle con numero progressivo da 1 a 100
+    for( let i = 1; i <= 100; i++) {
+        const addElement = document.createElement('div');
+        const grid = document.getElementById('grid');
+        addElement.innerhtml = i; // inserisco numeri nell'elemento generato
+        addElement.className = 'cell';
+        grid.append(addElement);
 
 
-}
-)
+    }
 
+
+
+
+
+})

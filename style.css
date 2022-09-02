@@ -4,21 +4,25 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-  }
+}
   
-  body {
+body {
     font-family: sans-serif;
-  }
+}
 
-  .container {
+.container {
     width: 1200px;
     margin: 0 auto;
+}
+
+#grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
+}
 
-  .cell {
+
+.cell {
     width: calc(100% / 10);
+    height: 100px;
     border: 1px black solid;
-  }
+}
