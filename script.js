@@ -21,10 +21,9 @@ button.addEventListener('click', function(){
 
     // Creo celle con numero progressivo da 1 a 100
     for( let i = 1; i <= 100; i++) {
-        const addElement = document.createElement('div');
-        const grid = document.getElementById('grid');
-        addElement.innerhtml = i; // inserisco numeri nell'elemento generato
+        const addElement = document.createElement('div');      
         addElement.className = 'cell';
+        addElement.innerHTML = i ; // inserisco numeri creati
         grid.append(addElement);
 
 
