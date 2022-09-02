@@ -8,16 +8,37 @@
   
 body {
     font-family: sans-serif;
+    background-color: #7fffd4;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+    background-color: white;
+    
+}
+ 
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 #grid {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+}
+
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+strong {
+    font-size:30px;
+    margin: 15px;
 }
 
 
@@ -28,6 +49,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    
 }
 
 .even {
