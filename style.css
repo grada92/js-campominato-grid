@@ -30,6 +30,9 @@ body {
     flex-wrap: wrap; 
 }
 
+#button-grid {
+    width: 100px;
+}
 .left-header {
     display: flex;
     justify-content: center;
@@ -49,8 +52,6 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    
 }
 
 .even {
@@ -59,4 +60,8 @@ strong {
 
 .odd {
     background-color: green;
+}
+
+.footer {
+    height: 150px;
 }
