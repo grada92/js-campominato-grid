@@ -30,20 +30,18 @@ button.addEventListener('click', function(){
 
         addCellElement.addEventListener('click',function(){
             console.log('mi hai cliccato', i);
-
+            // Creo funzione se pari o dispari
             function isNumberEven (number){
                 return number % 2 === 0;
             }
             const isEven = isNumberEven (i);
             if(isEven){
-                
+                addCellElement.classList.add('even');
+            }else {
+                addCellElement.classList.add('odd');
             }
 
         })
     }
-
-
-
-
 
 })
