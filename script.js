@@ -29,7 +29,7 @@ button.addEventListener('click', function(){
         // genero click su cella
 
         addCellElement.addEventListener('click',function(){
-            console.log('mi hai cliccato', i);
+            console.log('hai cliccato la cella numero', i);
             // Creo funzione se pari o dispari
             function isNumberEven (number){
                 return number % 2 === 0;
