@@ -28,7 +28,18 @@ button.addEventListener('click', function(){
 
         // genero click su cella
 
+        addCellElement.addEventListener('click',function(){
+            console.log('mi hai cliccato', i);
 
+            function isNumberEven (number){
+                return number % 2 === 0;
+            }
+            const isEven = isNumberEven (i);
+            if(isEven){
+                
+            }
+
+        })
     }
 
 

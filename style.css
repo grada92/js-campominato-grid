@@ -26,3 +26,11 @@ body {
     height: 100px;
     border: 1px black solid;
 }
+
+.even {
+    background-color: aqua;
+}
+
+.odd {
+    background-color: green;
+}
